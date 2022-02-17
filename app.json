@@ -14,15 +14,15 @@
   "env": {
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": ""
+      "value": "Jack"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "2720968"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "ac70278287c64e2a995fcfae882ff7dd"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
@@ -49,12 +49,37 @@
     },
     "HEROKU_APP_NAME": {
       "description": "YOUR app name ",
-      "value": "",
+      "value": "jackub",
       "required": false
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Dhaka",
+      "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "Set this value same as PRIVATE_GROUP_BOT_API_ID if you need pmgaurd",
+      "value": "Asia/Dhaka",
+      "required": false
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "Set this value with group id of private group(can be found this value by .id)",
+      "value": "Asia/Dhaka",
+      "required": false
+    },
+    "PM_LOGGER_GROUP_ID": {
+      "description": "set this with group id so it keeps notifying about your tagged messages or pms",
+      "value": "Asia/Dhaka",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Owner id to show profile link of given id as owner",
+      "value": "",
+      "required": false
+    },
+    "ANTISPAMBOT_BAN": {
+      "description": "SpamWatch, CAS, SpamProtection ban Needed or not",
+      "value": "True",
       "required": false
     },
     "UPSTREAM_REPO": {
